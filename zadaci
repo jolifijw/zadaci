@@ -1,0 +1,105 @@
+
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main(){
+/*/
+    float a,b,c;
+    cin>>a>>b>>c;
+    
+    if(a>=1 && a<=3)
+    {
+    cout<<"a-принадлежит\n";
+    }
+else
+{
+    cout << "a не пернадлежит\n";
+}
+    if(b>=1 && b<=3)
+    {
+    cout<<"b-принадлежит\n";
+    }
+else
+{
+    cout << "b не пернадлежит\n";
+}
+    if(c>=1 && c<=3)
+    {
+    cout<<"c-принадлежит\n";
+    }
+else
+{
+    cout << "c не пернадлежит\n";
+}
+//задача 2
+  int a,b,c;
+  cin >> a;
+  if (a <= 0)
+{
+      cout << a;
+      
+}
+  if(a>0 and a<=1)
+{
+     b=(a*a)-a;
+     cout << b;
+     
+}
+ if(a>1)
+{
+     c=(a*a)-(3.14*(a*a));
+     cout << c;
+}
+
+ int a,y;
+ cin >> a;
+ y = a*-1;
+ cout << y<<"\n";
+ y = 0;
+ y = a*a*-1;
+ cout <<"\n"<<y;
+/*/
+int a,b,c,D,x,x2,v;
+cin >> a>>b>>c;
+if (a > 0)
+{
+D=(b*b)-(4*a*c);
+}
+ if (D < 0)
+ {
+     cout << "нет корней";
+ }
+  if (D=0)
+  {
+     x=(b*-1)/(2*a);
+     cout << "Корень равен=" << x;
+  }
+   if (D>0)
+   {
+     v=sqrt(D);
+     x=((b*-1)-v)/(2*a);
+     x2=((b*-1)+v)/(2*a);
+     cout << "Корень=" << x << "\n Корень2="<< x2;
+   }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    return 0;
+    
+}
